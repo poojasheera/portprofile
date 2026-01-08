@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sheera Poojitha | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Sheera</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certs">Certificates</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Hello, I'm <span>Sheera Poojitha</span></h1>
+  <p>Aspiring AI Engineer | Machine Learning Enthusiast</p>
+  <button onclick="scrollToSection()">Explore More</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="card hidden">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate student exploring Artificial Intelligence and Machine Learning.
+    I enjoy building smart systems and learning new technologies to solve real-world problems.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="card hidden">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project">AI-Based Recommendation System</div>
+    <div class="project">Student Management System</div>
+    <div class="project">Mini Machine Learning Projects</div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certs" class="card hidden">
+  <h2>Certifications</h2>
+  <div class="cert-box" onclick="openModal()">
+    <p>📜 Click to View Certificate</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="card hidden">
+  <h2>Contact</h2>
+  <p>📧 Email: <strong>poojasheera614@gmail.com</strong></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Sheera Poojitha | Portfolio</p>
+</footer>
+
+<!-- CERTIFICATE MODAL -->
+<div id="modal" class="modal">
+  <span class="close" onclick="closeModal()">×</span>
+  <img src="certificates/certificate1.jpg" alt="Certificate">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
